@@ -16,9 +16,11 @@ export default function GetDataScreen() {
         console.log(area);
 
         // Perform your all Action here
-        // once you success 
-        onSuccess(area);
+        // once you successfully get the house price please pass it to below function as a argument 
 
+        // just pass this result or predicted result
+         onSuccess(area);
+        
 
     }
 
