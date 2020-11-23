@@ -22,7 +22,7 @@ import { SimpleLineIcons } from '@expo/vector-icons';
 const slides = [
   {
     key: 1,
-    text: 'Welcome to HPPA',
+    text: 'Welcome to HCPA',
     details: 'In this app you can predict any house price. We have traind app for prediction of house prices',
     image: require('../../assets/slider_1.png'),
     backgroundColor: '#59b2ab',

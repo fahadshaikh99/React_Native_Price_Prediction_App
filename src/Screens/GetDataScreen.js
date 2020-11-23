@@ -18,7 +18,7 @@ export default function GetDataScreen() {
         // Perform your all Action here
         // once you successfully get the house price please pass it to below function as a argument 
 
-        // just pass this result or predicted result
+        // just pass the result or predicted result in onSuccess function ( .then function )
          onSuccess(area);
         
 
@@ -58,7 +58,7 @@ export default function GetDataScreen() {
                     <ActivityIndicator size="small" color="white" />
                 :
                     
-                    <Text style={{ color: 'black'}}>
+                    <Text style={{ color: 'black', fontWeight: 'bold'}}>
                         Start Prediction
                     </Text>
                 }
@@ -85,10 +85,7 @@ const styles = StyleSheet.create({
     marginTop: (Dimensions.get('window').height)/70
     
 },
-welcomeContainer: {
-    marginTop: (Dimensions.get('window').height)/12, 
-    marginBottom: (Dimensions.get('window').height)/12
-},
+
 InputTextStyle: {
     fontSize: 18,
     flex:1,
@@ -106,9 +103,6 @@ ButtonStyle: {
     alignItems: 'center'
     
 },
-signupText: {
-    flexDirection: 'row',
-     marginTop: (Dimensions.get('window').height)/29
-},
+
 
 });
