@@ -58,7 +58,7 @@ export default function GetDataScreen() {
                     <ActivityIndicator size="small" color="white" />
                 :
                     
-                    <Text style={{ color: 'white'}}>
+                    <Text style={{ color: 'black'}}>
                         Start Prediction
                     </Text>
                 }
@@ -95,7 +95,7 @@ InputTextStyle: {
     marginLeft: '5%'
 },
 ButtonStyle: {
-    backgroundColor: '#9999e6',
+    backgroundColor: '#FFBE00',
     height: (Dimensions.get('window').height)/14,
     marginHorizontal: 15,
     borderRadius: 20,

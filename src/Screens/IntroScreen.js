@@ -31,7 +31,7 @@ const IntroScreen = () => {
                 Fahad Shaikh (550)
             </Text>
             <TouchableOpacity onPress={() => navigation.navigate('GetDataScreen')} style={styles.ButtonStyle}>
-                    <Text style={{ color: 'white'}}>
+                    <Text style={{ color: 'black', fontWeight: 'bold'}}>
                         Get Started
                     </Text>  
             </TouchableOpacity>
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
       marginLeft: '5%'
   },
   ButtonStyle: {
-      backgroundColor: '#9999e6',
+      backgroundColor: '#FFBE00',
       height: (Dimensions.get('window').height)/14,
       marginHorizontal: 15,
       borderRadius: 20,

@@ -76,7 +76,7 @@ const WelcomeScreen = () => {
 
   return(
     <>
-    <StatusBar barStyle="white" backgroundColor="#7041EE" />
+    <StatusBar barStyle="white" backgroundColor="#FFBE00" />
       <View style={styles.container}>
         <View style={styles.introView}>
           <AppIntroSlider 
